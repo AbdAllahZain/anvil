@@ -55,8 +55,6 @@ object EditorSetup {
         set(EditorColorScheme.COMPLETION_WND_ITEM_CURRENT, c.selected)
         set(EditorColorScheme.COMPLETION_WND_TEXT_PRIMARY, c.text)
         set(EditorColorScheme.COMPLETION_WND_TEXT_SECONDARY, c.textDim)
-        set(EditorColorScheme.TEXT_ACTION_WINDOW_BACKGROUND, c.raised)
-        set(EditorColorScheme.TEXT_ACTION_WINDOW_ICON_COLOR, c.text)
         return s
     }
 
