@@ -60,7 +60,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
 
     // Code editor (TextMate highlighting)
-    implementation(platform("io.github.Rosemoe.sora-editor:bom:0.23.7"))
+    implementation(platform("io.github.Rosemoe.sora-editor:bom:0.23.2"))
     implementation("io.github.Rosemoe.sora-editor:editor")
     implementation("io.github.Rosemoe.sora-editor:language-textmate")
 
