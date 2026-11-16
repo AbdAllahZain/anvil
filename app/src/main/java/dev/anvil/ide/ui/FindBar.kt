@@ -100,7 +100,7 @@ fun FindBar(vm: IdeViewModel, tab: EditorTab) {
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
                 Field(replacement, { replacement = it }, Modifier.weight(1f), hint = "Replace with")
-                Btn("Replace", { editor?.searcher?.replaceCurrentMatch(replacement); tick++ }, enabled = count > 0)
+                Btn("Replace", { editor?.searcher?.replaceThis(replacement); tick++ }, enabled = count > 0)
                 Btn("All", { editor?.searcher?.replaceAll(replacement); tick++ }, enabled = count > 0)
             }
         } else {
